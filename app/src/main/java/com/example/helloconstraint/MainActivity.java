@@ -29,11 +29,13 @@ public class MainActivity extends AppCompatActivity {
 
         showCount = findViewById(R.id.show_count);
         zeroButton = findViewById(R.id.button_zero);
+        countButton = findViewById(R.id.button_count);
     }
 
     private int count = 0;
     private TextView showCount;
     private Button zeroButton;
+    private Button countButton;
 
 // in onCreate, after the ViewCompat block:
 
@@ -47,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
         showCount.setText(String.valueOf(count));
         zeroButton.setBackgroundTintList(ColorStateList.valueOf(
                 ContextCompat.getColor(this, R.color.colorZeroActive)));
+
+        countButton.setBackgroundTintList( ColorStateList.valueOf(
+                ContextCompat.getColor(this, R.color.green))
+        );
     }
 
     public void zero(View view) {
@@ -54,5 +60,8 @@ public class MainActivity extends AppCompatActivity {
         showCount.setText(String.valueOf(count));
         zeroButton.setBackgroundTintList(ColorStateList.valueOf(
                 ContextCompat.getColor(this, R.color.colorZeroGray)));
+
+        countButton.setBackgroundTintList( ColorStateList.valueOf(
+                ContextCompat.getColor(this, R.color.colorPrimary)));
     }
 }

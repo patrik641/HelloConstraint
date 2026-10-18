@@ -6,4 +6,5 @@
     <color name="colorZeroGray">#AAAAAA</color>
     <color name="colorZeroActive">#FF4081</color>
     <color name="myBackgroundColor">#FFF03E</color>
+    <color name="green">#90EE90</color>
 </resources>
