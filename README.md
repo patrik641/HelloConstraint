@@ -13,8 +13,8 @@ A simple Android app built in Java that demonstrates interactive UI elements and
 ## Screenshots
 
 | Portrait | Landscape |
-|----------|-----------|
-| ![Portrait](screenshots/portrait.png) | ![Landscape](screenshots/landscape.png) |
+|:--------:|:---------:|
+| <img width="250" alt="Portrait screenshot" src="https://github.com/user-attachments/assets/b5512bd1-c087-4748-a941-45c0b3b671b8" /> | <img width="500" alt="Landscape screenshot" src="https://github.com/user-attachments/assets/2c4bd0d7-0ead-44cd-a943-605d59fe79a4" /> |
 
 ## Built With
 
